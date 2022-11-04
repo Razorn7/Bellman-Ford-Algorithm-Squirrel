@@ -1,8 +1,11 @@
+// source: https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
+// by razorn7 - Razor#7311
+
+Edge <- array(100, null);
+
 class EdgeClass {
 	src = 0; dest = 0; weight = 0;
 }
-
-Edge <- array(100, null);
 
 class Graph {
 	V = null;
